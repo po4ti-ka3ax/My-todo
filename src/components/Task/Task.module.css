@@ -1,0 +1,57 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .3s all ;
+    padding: 0 10px;
+    background: rgb(65, 77, 112);
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.task:hover {
+
+    background: rgba(247,91,97,.7);
+}
+
+.tasks__title {
+    font-size: 20px;
+    color: lightgray;
+    margin-bottom: 10px;
+}
+
+.task__input {
+    font-size: 20px;
+    background: rgb(69, 82, 120);
+    color: #fff;
+    padding: 4px 6px;
+    border-radius: 5px;
+
+}
+
+.task__title__close {
+    text-decoration: line-through;
+    font-size: 25px;
+    color: rgb(181, 181, 181);
+}
+.task__title {
+    font-size: 25px;
+}
+
+.btns {
+    display: flex;
+}
+.btn {
+    background: rgba(108,205,255,1);
+    margin: 10px 20px;   
+    transition: .3s all ;
+    padding: 5px;
+    border-radius: 4px;
+}
+.btn:hover {
+    scale: 1.2;
+}
+.btn img{
+    width: 40px;
+    height: 40px;
+}

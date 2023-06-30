@@ -1,0 +1,11 @@
+.header__title {
+    margin: 20px 0;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    background: rgb(187,82,94);
+    background: linear-gradient(90deg, rgba(187,82,94,1) 0%, rgba(46,184,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

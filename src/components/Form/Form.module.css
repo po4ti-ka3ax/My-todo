@@ -1,0 +1,27 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.form__input {
+    background-color: #212739;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form__btn {
+    background: rgb(187, 82, 94);
+    background: linear-gradient(90deg, rgba(187, 82, 94, 1) 0%, rgba(46, 184, 255, 1) 100%);
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    padding: 6px 20px;
+    margin: 0 20px;
+
+}
