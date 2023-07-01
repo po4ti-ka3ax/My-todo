@@ -133,8 +133,8 @@ const Task = ({tasks, setTasks }) => {
 
 
 Task.propTypes = {
-  todo: PropTypes.array,
-  setTodo: PropTypes.func,
+  tasks: PropTypes.array,
+  setTasks: PropTypes.func,
 }
 
 
