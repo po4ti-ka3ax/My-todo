@@ -12,6 +12,7 @@ import Form from '../Form/Form';
 
 const Task = ({tasks, setTasks }) => {
 
+  console.log(tasks);
   const [edit, setEdit] = useState(null)
   const [currentValue, setCurrentValue] = useState('')
   const [status, setStatus] = useState(true)
@@ -70,6 +71,7 @@ const Task = ({tasks, setTasks }) => {
       <div className={s.tasks}>
         <h2 className={s.tasks__title}>Tasks</h2>
         {
+          Array.isArray(tasks) ?
           tasks.map(elem => (
             <div key={elem.id} className={s.task}>
               {
@@ -121,6 +123,8 @@ const Task = ({tasks, setTasks }) => {
 
 
           ))
+          :
+          ''
         }
 
       </div>
