@@ -13,10 +13,6 @@ const Form = ({ tasks, setTasks }) => {
     localStorage.setItem(key, JSON.stringify(data))
   }
 
-  function getStorageData(key, defaultValue = []) {
-    return JSON.parse(localStorage.getItem(key)) ?? defaultValue
-  }
-
 
   const saveHandler = () => {
     setStorageData("tasks", tasks)
